@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/ogidevs/mc-ogiplayerstats/main/logo.png" alt="OgiPlayerStats Banner" width="200"/>
 </p>
 
@@ -13,10 +13,19 @@
 
 <p align="center">
   <!-- GitHub Badges -->
-  <a href="#"><img src="https://img.shields.io/static/v1?label=Minecraft&message=1.16.5%20-%201.21&color=brightgreen" alt="Supported Versions"></a>
-  <a href="https://github.com/ogidevs/mc-ogiplayerstats/issues"><img src="https://img.shields.io/github/issues/ogidevs/mc-ogiplayerstats" alt="GitHub issues"></a>
-  <a href="https://github.com/ogidevs/mc-ogiplayerstats/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ogidevs/mc-ogiplayerstats?cacheSeconds=1" alt="License"></a>
+  <a href="#"><img src="https://img.shields.io/static/v1?label=Minecraft&message=26.3&color=brightgreen" alt="Supported Versions"></a>
+  <a href="#"><img src="https://img.shields.io/static/v1?label=Java&message=25&color=orange" alt="Java 25"></a>
+  <a href="https://github.com/itskua/mc-ogiplayerstats/issues"><img src="https://img.shields.io/github/issues/itskua/mc-ogiplayerstats" alt="GitHub issues"></a>
+  <a href="https://github.com/itskua/mc-ogiplayerstats/blob/main/LICENSE"><img src="https://img.shields.io/github/license/itskua/mc-ogiplayerstats?cacheSeconds=1" alt="License"></a>
 </p>
+
+> [!NOTE]
+> **🚀 Minecraft 26.3 & Java 25 Support Fork**
+> This repository has been updated to support **Minecraft / Paper 26.3** and compiled targeting **Java 25 (bytecode version 69)**.
+> - Upgraded Paper API dependency to `26.3.build.226-stable`.
+> - Set `api-version: '26.3'` in `plugin.yml`.
+> - Compiled and verified using OpenJDK 25.
+> - See [CHANGELOG.md](CHANGELOG.md) for full details.
 
 ---
 

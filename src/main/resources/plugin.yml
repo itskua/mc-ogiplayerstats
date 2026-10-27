@@ -3,7 +3,7 @@
 name: OgiPlayerStats
 version: 1.0.0
 main: org.ognjen.ogiPlayerStats.OgiPlayerStats
-api-version: '1.21'
+api-version: '26.3'
 author: ogi
 description: A simple and configurable player stats plugin.
 softdepend: [PlaceholderAPI]

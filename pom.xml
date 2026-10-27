@@ -12,7 +12,7 @@
     <name>OgiPlayerStats</name>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>25</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -24,8 +24,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <release>25</release>
                 </configuration>
             </plugin>
             <plugin>
@@ -67,9 +66,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.destroystokyo.paper</groupId> <!-- Note the different groupId -->
+            <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.16.5-R0.1-SNAPSHOT</version> <!-- This works with Java 11 -->
+            <version>26.3.build.226-stable</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
